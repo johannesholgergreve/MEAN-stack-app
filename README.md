@@ -22,24 +22,24 @@ $ npm install mongodb
 
 # Install MongoDB on Ubuntu 16.04 server
 
-1. Adding MongoDB repository
-$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+1. Adding MongoDB repository  
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927  
 
-2. Create list file for Mongo
-$ echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+2. Create list file for Mongo  
+$ echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list  
 
-3. Update package list
-$ sudo apt-get update
+3. Update package list  
+$ sudo apt-get update  
 
-4. Install MongoDB
-$ sudo apt-get install -y mongodb-org
+4. Install MongoDB  
+$ sudo apt-get install -y mongodb-org  
 
-5. Create MongoDB data folder
-$ sudo mkdir -p /data/db
+5. Create MongoDB data folder  
+$ sudo mkdir -p /data/db  
 
-6. Run Mongod
-$ Mongod
+6. Run Mongod  
+$ Mongod  
 
-7. Use Mongo
-$ Mongo
+7. Use Mongo  
+$ Mongo  
 
