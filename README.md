@@ -20,7 +20,7 @@ $ sudo apt-get install npm
 $ npm install socket.io
 $ npm install mongodb
 
-# Install MongoDB server on Ubuntu 16.04
+# Install MongoDB on Ubuntu 16.04 server
 
 1. Adding MongoDB repository
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
