@@ -3,22 +3,22 @@ Using AngularJS with MongoDB, NodeJS and Express. User can change skill sets wit
 
 # Install NodeJS on Ubuntu 16.04 server
 
-1. Install HomeBrew
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+1. Install HomeBrew  
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  
 
-2. Update brew
-$ brew update
+2. Update brew  
+$ brew update  
 
-3. Install NodeJS
-$ sudo apt-get update
-$ sudo apt-get install nodejs
+3. Install NodeJS  
+$ sudo apt-get update  
+$ sudo apt-get install nodejs  
 
-4. Install node package manager
-$ sudo apt-get install npm
+4. Install node package manager  
+$ sudo apt-get install npm  
 
-5. Install needed node modules (In project folder)
-$ npm install socket.io
-$ npm install mongodb
+5. Install needed node modules (In project folder)  
+$ npm install socket.io  
+$ npm install mongodb  
 
 # Install MongoDB on Ubuntu 16.04 server
 
